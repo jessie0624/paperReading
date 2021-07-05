@@ -60,3 +60,12 @@ Intelligent Advertising Lab JD.com
 DLACM,2018,Cited by 131
 
 https://export.arxiv.org/pdf/1802.06501
+
+
+# Modeling dynamic missingness of implicit feedback for recommendation
+Menghan Wang, College of Computer Science,Zhejiang University;
+Mingming Gong, Department of Biomedical Informatics,University of Pittsburgh; Xiaolin Zheng∗,College of Computer Science,Zhejiang University;Kun Zhang,Department of Philosophy,Carnegie Mellon University kunz1@cmu.edu
+
+Cited by 25
+
+https://papers.nips.cc/paper/2018/file/8d9766a69b764fefc12f56739424d136-Paper.pdf
