@@ -10,6 +10,8 @@ https://www.ijcai.org/Proceedings/2020/0349.pdf
 
 https://github.com/qqxiaochongqq/DFN
 
+[DFN](./papers/implicit_[DFNforWechat]DeepFeedBackNetworkforRecommendation.pdf)
+
 微信TopStory。
 
 method:
@@ -53,6 +55,9 @@ method:
     - AUC
     - RelaImpr = (AUC_measured -0.5)/(AUC_base-0.5) - 1.
 
+- results:
+    - On CTR: (78.98)  gain +1~+2 compared with FM/Wide&Deep/AFM/NFM/DeepFM/DCN/DIN/AutoInt (75.91-77.97)
+    - On negative feedback: (88.04) gain +11-20.  base model(697-77.49)
 
 # Coupledcf: Learning explicit and implicit user-item couplings in recommendation for deep collaborative filtering
 Zhang,Q  Cao,L  Zhu,C  Li, Z  Sun, J
