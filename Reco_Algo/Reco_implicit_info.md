@@ -1,3 +1,4 @@
+
 # Deep feedback network for recommendation
 R Xie, C Ling, Y Wang, R Wang, F Xia, L Lin 
 
@@ -23,8 +24,9 @@ method:
 
 - model architecture:
 
-
+    ![DFN](./Reco_implicit_png/DFN_model_architecture.png)
     - [1] DFI. deep feedback ineraction module. (Take multiple feedbacks as inputs to exract user unbiased positive and negative preferences, with the help of internal and external feedback interactions)
+        ![DFI](./Reco_implicit_png/DFN_model_DeepFeedbackInteraction.png)
     - [2] FA. Feature Aggregation by Wide/FM/Deep components. (Refined feedback features are combined with other informatie features such as user profiles, item features and recommendation contexts).
     - [3] FC. Fully connection + Softmax. (The outputs of feature interaction module are fed into fully connected and softmax layer for model optimization with both positive and negative losses).
 
